@@ -1,7 +1,24 @@
 {
   "name": "@duckie/quack-quack",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "description": "Duckie Design System",
+  "homepage": "https://github.com/duckie-team/duckie-quack-quack-web",
+  "author": "Duckie",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/duckie-team/duckie-quack-quack-web/issues",
+    "email": "hyuns@hyuns.dev"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
